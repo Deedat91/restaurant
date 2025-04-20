@@ -1086,7 +1086,7 @@ footer {
 }
 
 .add-to-cart-btn {
-  position: absolute;
+  position: auto;
   bottom: 15px;
   right: 15px;
   background-color: var(--primary);
@@ -1097,6 +1097,7 @@ footer {
   font-weight: 600;
   cursor: pointer;
   transition: var(--transition);
+  padding: auto;
 }
 
 .add-to-cart-btn:hover {
